@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git branch: 'main', changelog: false, url: 'https://github.com/kushwaha1980/Jenkins-integration-with-kubernetes.git'
+        git branch: 'main', changelog: false, url: 'https://github.com/kushwaha1980/nodedocker_app.git'
       }
     }
 
